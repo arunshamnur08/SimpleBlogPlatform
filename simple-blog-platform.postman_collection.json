@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "16081156-26ad-46ae-9956-21d91e8df025",
+		"name": "simple-blog-platform",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Blog",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"title\": \"A Tour About Go language\",\n  \"content\":\"Go (also known as Golang) is a statically typed, compiled language designed for ease of use and efficiency. It has gained popularity for its simplicity and performance. In this blog post, we'll explore the basics of Go programming and how to get started with it.\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/blog/Create"
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllBlogs",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Blog By ID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Update blog by Id",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Blog By Id",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
